@@ -953,6 +953,7 @@ body {background-color: Salmon;}
 }
 
 .imagenes{
+  display: inline-block;
   width: 80%;
 }
 
