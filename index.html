@@ -3,39 +3,113 @@
     <head>
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <meta charset="utf-8" />
-        <title></title>
+        <link href="css/site.css" rel="stylesheet">
+        <link href="css/photoswipe.css" rel="stylesheet">
+        <link href="css/default-skin/default-skin.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <title>Mis Hobbies</title>
     </head>
     <body>
         <section>
         	<article>
         		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+				  <a class="navbar-brand" href="#">Mis Hobbies</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Deportes</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Videos</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Musica</a>
+				      </li>
+				    </ul>
+				  </div>
+				</nav>
         	</article>
         </section>
 
+        <section>
+	    <div class="row">
+	      <div id="demo-test-gallery" class="demo-gallery" data-pswp-uid="1">
+	        <a href="img/1.1.jpg" data-size="1600x1600" data-med="img/1.jpg" data-med-size="1024x1024" data-author="Internet" class="demo-gallery__img--main">
+	          <img src="img/1.jpg" alt="">
+	          <figure>Mountain Bike (Cross-Country)</figure>
+	        </a>
+	        <a href="img/2.2.jpg" data-size="1600x1068" data-med="img/2.jpg" data-med-size="1024x683" data-author="Internet">
+	          <img src="img/2.jpg" alt="">
+	          <figure>Off-Road (Bryce Menzies Trophy-Truck)</figure>
+	        </a>
+	        <a href="img/3.3.jpg" data-size="1600x1067" data-med="img/3.jpg" data-med-size="1024x683" data-author="Internet">
+	          <img src="img/3.jpg" alt="">
+	          <figure>PC Games (Counter Strike GO)</figure>
+	        </a>
+	        <a href="img/4.4.jpg" data-size="1600x1067" data-med="img/4.jpg" data-med-size="1024x683" data-author="Internet">
+	          <img src="img/4.jpg" alt="">
+	          <figure>PC Hardware (Gaming Rig)</figure>
+	        </a>
+	        <a href="img/5.5.jpg" data-size="1600x1067" data-med="img/5.jpg" data-med-size="1024x683" data-author="Internet">
+	          <img src="img/5.jpg" alt="">
+	          <figure>Sports Cars (Nissan GTR Nismo)</figure>
+	        </a>
+	      </div>
+	    </div>
+        <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="pswp__bg"></div>
+	        <div class="pswp__scroll-wrap">
+	          <div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+	          </div>
+	          <div class="pswp__ui pswp__ui--hidden">
+	            <div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+						  <div class="pswp__preloader__cut">
+						    <div class="pswp__preloader__donut"></div>
+						  </div>
+						</div>
+					</div>
+	            </div>
+	            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		            <div class="pswp__share-tooltip">
+						<!-- <a href="#" class="pswp__share--facebook"></a>
+						<a href="#" class="pswp__share--twitter"></a>
+						<a href="#" class="pswp__share--pinterest"></a>
+						<a href="#" download class="pswp__share--download"></a> -->
+		            </div>
+		        </div>
+	            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+	            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+	            <div class="pswp__caption">
+	              <div class="pswp__caption__center">
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	    </div>
+    
 
+	 	<script src="js/photoswipe.js"></script> 
+		<script src="js/photoswipe.min.js"></script>
+		<script src="js/photoswipe.min.js"></script>
+        <script src="js/photoswipe-ui-default.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     </body>
 </html>
