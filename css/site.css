@@ -941,7 +941,11 @@ margin: 0 1px 1px 0;
   text-align: center;
 }
 
-body {background-color: Salmon;}
+body {background-color: PowderBlue;}
+footer{background-color: DodgerBlue;}
+.depo{background-color: LightSalmon }
+.music{background-color: LightSalmon }
+
 
 .parrafo{
   padding-left: 20px
@@ -949,7 +953,7 @@ body {background-color: Salmon;}
 
 .footer{
   text-align: center;
-  padding: 2em;
+  padding: 1em;
 }
 
 .imagenes{
@@ -976,4 +980,8 @@ height: 100%;
 .video-container2{
   width: 70%;
   margin: auto;
+}
+
+.musica{
+  text-align: center;
 }
